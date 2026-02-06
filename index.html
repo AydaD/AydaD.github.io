@@ -1,143 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ilayda Deniz | Cybersecurity Apprentice</title>
+  <meta name="description" content="Ilayda Deniz — Cybersecurity Apprentice. Portfolio: education, experience, projects, certifications, skills, contact." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!-- Top Glow -->
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" id="top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">Ilayda Deniz</span>
+      </a>
+
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPanel">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+
+        <div class="nav-panel" id="navPanel">
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#certifications" class="nav-link">Certifications</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+
+      <!-- Small button -->
+      <a class="btn btn-sm btn-primary"
+         href="https://www.linkedin.com/in/ilayda-deniz-b15895229"
+         target="_blank" rel="noreferrer"
+         aria-label="Open LinkedIn profile">
+        LinkedIn
+      </a>
+  
+    </div>
+  </header>
+
   <main>
-    <header>
-      <h1>Welcome to My Portfolio</h1>
-      <p>This is where I showcase my projects and skills.</p>
-    </header>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card reveal">
+          <p class="kicker">Cybersecurity Apprentice</p>
+          <h1 class="hero-title">Building secure systems, networks, and real-world IT skills.</h1>
 
-    <section id="education">
-      <h2>Education</h2>
+          <p class="hero-summary">
+            Cybersecurity apprentice with a strong interest in systems, networks, and IT security.
+            Currently building hands-on experience in securing infrastructures, understanding network architectures,
+            and developing a rigorous and analytical approach to cybersecurity challenges.
+          </p>
 
-      <h3>BTS Cyber Security - Lycée Guillaume Kroll (Current)</h3>
-      <p>
-        Currently studying BTS Cloud Computing &amp; Cyber Security. Focus on systems,
-        networking, and security, with hands-on labs and projects.
-      </p>
+          <div class="hero-actions">
+            <a class="btn btn-sm btn-outline" href="#projects">View Projects</a>
+            <a class="btn btn-sm btn-ghost" href="#contact">Contact</a>
+          </div>
+        </div>
 
-      <h3>Bachelor in Systems, Networks and Cybersecurity - Metz Numeric School (2 years)</h3>
-      <p>
-        Completed two years of a Bachelor program focused on systems, networks,
-        and security fundamentals, building strong technical foundations.
-      </p>
+        <div class="hero-grid">
+          <div class="mini-card reveal" style="--d: 80ms">
+            <p class="mini-title">Focus</p>
+            <p class="mini-text">Systems • Networks • Cybersecurity</p>
+          </div>
+          <div class="mini-card reveal" style="--d: 160ms">
+            <p class="mini-title">Location</p>
+            <p class="mini-text">Esch-sur-Alzette, Luxembourg</p>
+          </div>
+          <div class="mini-card reveal" style="--d: 240ms">
+            <p class="mini-title">Availability</p>
+            <p class="mini-text">Open to opportunities</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="tbc">
-      <h2>Technical Business Communication</h2>
-      <p>
-        This course helped me develop professional communication skills
-        in a technical and IT context.
-      </p>
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Education</h2>
+          <p class="muted">Academic background</p>
+        </div>
 
-      <h3>Work completed</h3>
-      <ul>
-        <li>Writing professional documents (emails, reports)</li>
-        <li>Oral presentations of technical topics</li>
-        <li>Using technical English in a professional context</li>
-      </ul>
+        <div class="grid-2">
+          <article class="card reveal">
+            <div class="card-top">
+              <h3>Lycée Guillaume Kroll</h3>
+              <span class="pill">2025 – 2027</span>
+            </div>
+            <p class="card-subtitle">BTS in Cybersecurity</p>
+          </article>
 
-      <h3>Skills developed</h3>
-      <ul>
-        <li>Clear and structured communication</li>
-        <li>Technical English vocabulary</li>
-        <li>Professional written and oral expression</li>
-      </ul>
+          <article class="card reveal" style="--d: 120ms">
+            <div class="card-top">
+              <h3>Metz Numeric School</h3>
+              <span class="pill">2023 – 2025</span>
+            </div>
+            <p class="card-subtitle">Bachelor’s Degree in Systems, Networks &amp; Cybersecurity</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="pm">
-      <h2>Project Management</h2>
-      <p>
-        This course introduced me to the fundamentals of project management
-        applied to IT and technical projects.
-      </p>
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Experience</h2>
+          <p class="muted">Internship & part-time work</p>
+        </div>
 
-      <h3>Work completed</h3>
-      <ul>
-        <li>Project requirements analysis</li>
-        <li>Task planning and organization</li>
-        <li>Teamwork and task coordination</li>
-      </ul>
+        <div class="stack">
+          <article class="card reveal">
+            <div class="card-top">
+              <h3>CASI Lorraine — Metz</h3>
+              <span class="pill">May 2024 – Aug 2024</span>
+            </div>
+            <p class="card-subtitle">IT &amp; Cybersecurity Intern</p>
+            <ul class="bullets">
+              <li>Provided end-user IT support (hardware, software, basic network issues).</li>
+              <li>Performed network and IT asset audits to assess infrastructure and equipment status.</li>
+              <li>Compared service provider quotations to support decisions and cost optimization.</li>
+              <li>Created interactive cybersecurity awareness quizzes for staff members.</li>
+              <li>Contributed to improving cybersecurity awareness and good digital practices.</li>
+            </ul>
+          </article>
 
-      <h3>Skills developed</h3>
-      <ul>
-        <li>Organization and planning</li>
-        <li>Teamwork</li>
-        <li>Project monitoring and time management</li>
-      </ul>
+          <article class="card reveal" style="--d: 120ms">
+            <div class="card-top">
+              <h3>Délice du Moulin — Esch-sur-Alzette</h3>
+              <span class="pill">Apr 2024 – Present</span>
+            </div>
+            <p class="card-subtitle">Student Employee</p>
+            <ul class="bullets">
+              <li>Restocked shelves and ensured product availability throughout the day.</li>
+              <li>Maintained cleanliness and organization in accordance with hygiene standards.</li>
+              <li>Served customers and handled daily interactions professionally.</li>
+              <li>Prepared customer orders while meeting quality and time requirements.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="internship">
-      <h2>Internship / Work Experience</h2>
-      <p>
-        (Add your internship details here: company, dates, role, and what you did.)
-      </p>
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p class="muted">Selected school projects</p>
+        </div>
 
-      <h3>Key tasks</h3>
-      <ul>
-        <li>Task 1 (example: user support, troubleshooting)</li>
-        <li>Task 2 (example: network configuration, documentation)</li>
-        <li>Task 3 (example: security checks, access management)</li>
-      </ul>
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Professional Readiness Project</h3>
+            <p class="card-subtitle">Technical Business Communication</p>
+            <ul class="bullets">
+              <li>Developed a professional CV tailored to IT and cybersecurity roles.</li>
+              <li>Designed and built a personal portfolio to showcase projects and skills.</li>
+              <li>Worked on professional digital identity and online presence.</li>
+              <li>Created a professional email signature and applied communication standards.</li>
+            </ul>
+          </article>
 
-      <h3>What I learned</h3>
-      <ul>
-        <li>Professional communication and teamwork</li>
-        <li>Technical problem solving</li>
-        <li>Working with real IT environments</li>
-      </ul>
+          <article class="card reveal" style="--d: 120ms">
+            <h3>PYTWO Project</h3>
+            <p class="card-subtitle">Python — cybersecurity-oriented scripting</p>
+            <ul class="bullets">
+              <li>Designed and developed a Python-based cybersecurity project.</li>
+              <li>Applied structured programming and basic security-related logic.</li>
+              <li>Focused on problem-solving and clean, readable code.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" style="--d: 180ms">
+            <h3>KAFE Project</h3>
+            <p class="card-subtitle">Kali Linux — tools in a realistic scenario</p>
+            <ul class="bullets">
+              <li>Used and presented Kali Linux tools within a controlled environment.</li>
+              <li>Introduced offensive security concepts and common attack techniques.</li>
+              <li>Analyzed security implications and awareness recommendations.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" style="--d: 240ms">
+            <h3>Networking Project</h3>
+            <p class="card-subtitle">Multi-site network design</p>
+            <ul class="bullets">
+              <li>Designed a physical and logical network architecture.</li>
+              <li>Interconnected multiple sites within a simulated environment.</li>
+              <li>Configured and documented network components.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" style="--d: 300ms">
+            <h3>Food Truck Project</h3>
+            <p class="card-subtitle">Project management fundamentals</p>
+            <ul class="bullets">
+              <li>Planned and organized a food-related event as a project exercise.</li>
+              <li>Coordinated tasks, roles, and timelines with a team.</li>
+              <li>Applied basic project structure and communication practices.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="technical-skills">
-      <h2>Technical Skills</h2>
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Certifications</h2>
+          <p class="muted">Badges & verified learning</p>
+        </div>
 
-      <h3>Systems</h3>
-      <ul>
-        <li>Windows and Linux administration (basics)</li>
-        <li>User accounts, permissions, and access management</li>
-        <li>System configuration and troubleshooting</li>
-      </ul>
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Microsoft Office Specialist (MOS)</h3>
+            <ul class="bullets">
+              <li>PowerPoint Associate</li>
+              <li>Word Associate</li>
+            </ul>
+            <p class="muted small">
+              Certified skills in professional document creation and structured presentations.
+            </p>
+          </article>
 
-      <h3>Networking</h3>
-      <ul>
-        <li>IP addressing and subnetting (basics)</li>
-        <li>Network services: DNS, DHCP</li>
-        <li>Basic network configuration and troubleshooting</li>
-      </ul>
+          <article class="card reveal" style="--d: 120ms">
+            <h3>Cisco Networking Academy</h3>
+            <ul class="bullets">
+              <li>Introduction to Cybersecurity</li>
+              <li>Endpoint Security</li>
+              <li>Computer Hardware Basics</li>
+            </ul>
+            <p class="muted small">
+              Foundational certifications covering security principles, endpoint protection, and hardware basics.
+            </p>
+          </article>
+        </div>
 
-      <h3>Cybersecurity</h3>
-      <ul>
-        <li>Access control and basic system hardening</li>
-        <li>Understanding of cybersecurity principles</li>
-        <li>Security awareness and best practices</li>
-      </ul>
-
-      <h3>Tools &amp; Technologies</h3>
-      <ul>
-        <li>Git and GitHub</li>
-        <li>PowerShell (learning)</li>
-        <li>Virtualization (VirtualBox / VMware)</li>
-        <li>Windows and Linux environments</li>
-      </ul>
-
-      <h3>Certifications</h3>
-      <ul>
-        <li>Currently studying towards cybersecurity-related certifications</li>
-        <li>Planned certifications: networking and security fundamentals</li>
-      </ul
+        <!-- Optional: badge images (place files in your repo and update src paths) -->
+        <div class="badge-row reveal" style="--d: 180ms">
+          <img class="badge" src="badges/mos-powerpoint.png" alt="MOS PowerPoint Associate badge" loading="lazy" />
+          <img class="badge" src="badges/mos-word.png" alt="MOS Word Associate badge" loading="lazy" />
+          <img class="badge" src="badges/cisco-endpoint-security.png" alt="Cisco Endpoint Security badge" loading="lazy" />
+          <img class="badge" src="badges/cisco-intro-cyber.png" alt="Cisco Introduction to Cybersecurity badge" loading="lazy" />
+          <img class="badge" src="badges/cisco-hardware-basics.png" alt="Cisco Computer Hardware Basics badge" loading="lazy" />
+        </div>
+        <!-- If you don't want images, delete the badge-row block above -->
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p class="muted">Technical & soft skills</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card reveal">
+            <h3>Technical Skills</h3>
+            <div class="tags">
+              <span class="tag">Cisco Packet Tracer</span>
+              <span class="tag">Network Architecture</span>
+              <span class="tag">DNS</span>
+              <span class="tag">DHCP</span>
+              <span class="tag">User Support</span>
+              <span class="tag">Kali Linux</span>
+              <span class="tag">John the Ripper</span>
+              <span class="tag">Hydra</span>
+              <span class="tag">Crunch</span>
+              <span class="tag">Ubuntu</span>
+              <span class="tag">Windows</span>
+              <span class="tag">Active Directory</span>
+              <span class="tag">Print &amp; Document Services</span>
+              <span class="tag">Python</span>
+              <span class="tag">PowerShell</span>
+            </div>
+          </article>
+
+          <article class="card reveal" style="--d: 120ms">
+            <h3>Soft Skills</h3>
+            <div class="tags">
+              <span class="tag">Problem-solving</span>
+              <span class="tag">Curiosity</span>
+              <span class="tag">Communication skills</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p class="muted">Let’s connect</p>
+        </div>
+
+        <article class="card reveal">
+          <p class="card-subtitle">
+            I’m open to opportunities in cybersecurity, systems administration, and network security.
+            Feel free to reach out.
+          </p>
+
+          <div class="contact-links">
+            <a class="contact-link" href="ilayda.deniz.pro@gmail.com">
+              <span class="dot" aria-hidden="true"></span>
+              <span>Email</span>
+              <span class="muted">ilayda.deniz.pro@gmail.com</span>
+            </a>
+
+            <a class="contact-link" href="tel:+33 06.95.62.42.29">
+              <span class="dot" aria-hidden="true"></span>
+              <span>Phone</span>
+              <span class="muted">+33 06.95.62.42.29</span>
+            </a>
+
+            <a class="contact-link" href="https://www.linkedin.com/in/ilayda-deniz-b15895229/" target="_blank" rel="noreferrer">
+              <span class="dot" aria-hidden="true"></span>
+              <span>LinkedIn</span>
+              <span class="muted">Profile</span>
+            </a>
+
+            <a class="contact-link" href="https://github.com/AydaD/AydaD.github.io" target="_blank" rel="noreferrer">
+              <span class="dot" aria-hidden="true"></span>
+              <span>GitHub</span>
+              <span class="muted">Repositories</span>
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted small">© <span id="year"></span> Ilayda Deniz</p>
+      <a class="btn btn-sm btn-ghost" href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Dropdown menu (mobile)
+    const toggle = document.getElementById("navToggle");
+    const panel = document.getElementById("navPanel");
+
+    function closeMenu(){
+      toggle.setAttribute("aria-expanded", "false");
+      panel.classList.remove("open");
+    }
+
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      panel.classList.toggle("open");
+    });
+
+    panel.querySelectorAll("a").forEach(a => a.addEventListener("click", closeMenu));
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenu(); });
+
+    // Scroll reveal animations
+    const revealEls = document.querySelectorAll(".reveal");
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealEls.forEach(el => {
+      const delay = el.style.getPropertyValue("--d");
+      if (delay) el.style.transitionDelay = delay;
+      io.observe(el);
+    });
+  </script>
 </body>
 </html>
